@@ -1,0 +1,3463 @@
+11:05:57.799 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/PRODUCTS
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=PRODUCTS
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Sleek Paper Car",
+    "description": "All browsers support the hex definitions #chuck and #norris for the colors black and blue.",
+    "location_id": "2",
+    "min_stock_amount": "2"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:05:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Entity does not exist or is not exposed"
+}
+
+11:07:21.567 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/PRODUCTS
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=PRODUCTS
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Enormous Copper Computer",
+    "description": "Chuck Norris can access the DB from the UI.",
+    "location_id": "2",
+    "min_stock_amount": "8"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:07:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Entity does not exist or is not exposed"
+}
+
+11:16:17.659 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Small Aluminum Chair",
+    "description": "Chuck Norris's first program was kill -9.",
+    "location_id": "2",
+    "min_stock_amount": "7"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:16:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[HY000]: General error: 20 datatype mismatch"
+}
+
+11:22:32.164 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Practical Bronze Keyboard",
+    "description": "Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris.",
+    "location_id": "2",
+    "min_stock_amount": "7",
+    "qu_id_stock": "5",
+    "qu_id_purchase": "5"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:22:32 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[HY000]: General error: 20 datatype mismatch"
+}
+
+11:32:15.714 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Sleek Rubber Bottle",
+    "description": "Chuck Norris breaks RSA 128-bit encrypted codes in milliseconds.",
+    "location_id": 2,
+    "min_stock_amount": 5,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 4.8991
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:32:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[HY000]: General error: 20 datatype mismatch"
+}
+
+11:36:26.165 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sleek Plastic Plate",
+    "description": "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up.",
+    "location_id": 2,
+    "min_stock_amount": 4,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 0.4113
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:36:26 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209271"
+}
+
+11:37:31.047 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ergonomic Cotton Shoes",
+    "description": "For Chuck Norris, NP-Hard = O(1).",
+    "location_id": 2,
+    "min_stock_amount": 4,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 66.0671
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:37:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209272"
+}
+
+11:47:25.742 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sleek Aluminum Gloves",
+    "description": "There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.",
+    "location_id": 2,
+    "min_stock_amount": 6,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 59.3291
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 08:47:25 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209273"
+}
+
+12:09:25.751 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 09:09:25 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "0"
+}
+
+12:09:26.229 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=0
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 09:09:26 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Call to a member function delete() on null",
+    "error_details": {
+        "stack_trace": "#0 /app/grocy/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(43): Grocy\\Controllers\\GenericEntityApiController->DeleteObject()\n#1 /app/grocy/vendor/slim/slim/Slim/Routing/Route.php(384): Slim\\Handlers\\Strategies\\RequestResponse->__invoke()\n#2 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): Slim\\Routing\\Route->handle()\n#3 /app/grocy/middleware/JsonMiddleware.php(13): Slim\\MiddlewareDispatcher->handle()\n#4 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(209): Grocy\\Middleware\\JsonMiddleware->__invoke()\n#5 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle()\n#6 /app/grocy/vendor/slim/slim/Slim/Routing/Route.php(341): Slim\\MiddlewareDispatcher->handle()\n#7 /app/grocy/vendor/slim/slim/Slim/Routing/RouteRunner.php(84): Slim\\Routing\\Route->run()\n#8 /app/grocy/middleware/LocaleMiddleware.php(16): Slim\\Routing\\RouteRunner->handle()\n#9 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(313): Grocy\\Middleware\\LocaleMiddleware->__invoke()\n#10 /app/grocy/middleware/AuthMiddleware.php(76): class@anonymous->handle()\n#11 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(313): Grocy\\Middleware\\AuthMiddleware->__invoke()\n#12 /app/grocy/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(59): class@anonymous->handle()\n#13 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(147): Slim\\Middleware\\RoutingMiddleware->process()\n#14 /app/grocy/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(107): class@anonymous->handle()\n#15 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(147): Slim\\Middleware\\ErrorMiddleware->process()\n#16 /app/grocy/middleware/CorsMiddleware.php(30): class@anonymous->handle()\n#17 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(313): Grocy\\Middleware\\CorsMiddleware->__invoke()\n#18 /app/grocy/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle()\n#19 /app/grocy/vendor/slim/slim/Slim/App.php(215): Slim\\MiddlewareDispatcher->handle()\n#20 /app/grocy/vendor/slim/slim/Slim/App.php(199): Slim\\App->handle()\n#21 /app/grocy/app.php(94): Slim\\App->run()\n#22 /app/grocy/public/index.php(45): require_once('/app/grocy/app....')\n#23 {main}",
+        "file": "/app/grocy/controllers/GenericEntityApiController.php",
+        "line": 61
+    }
+}
+
+12:10:28.824 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Gorgeous Copper Bottle",
+    "description": "Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces.",
+    "location_id": 2,
+    "min_stock_amount": 3,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 1.3182
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 09:10:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209274"
+}
+
+12:10:29.432 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209274
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209274
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 09:10:29 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+13:18:09.634 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father",
+    "description": "Knowledge could be more valuable than gold, more deadly than a dagger.",
+    "is_freezer": 1
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:18:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: locations.name"
+}
+
+13:22:06.121 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father-in-law",
+    "description": "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:22:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "441"
+}
+
+13:23:21.274 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Aunt",
+    "description": "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:23:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "442"
+}
+
+13:36:38.245 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister Manuel MacGyver PhD",
+    "description": "Summer will end soon enough, and childhood as well.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:36:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "443"
+}
+
+13:36:38.773 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Fantastic Marble Coat",
+    "description": "Chuck Norris doesn't bug hunt, as that signifies a probability of failure. He goes bug killing.",
+    "location_id": 443,
+    "min_stock_amount": 3,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 57.2485
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:36:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209275"
+}
+
+13:36:54.691 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother Cecily McClure",
+    "description": "Summer will end soon enough, and childhood as well.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:36:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "444"
+}
+
+13:36:55.226 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rustic Silk Wallet",
+    "description": "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up.",
+    "location_id": 444,
+    "min_stock_amount": 8,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 90.4288
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:36:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209276"
+}
+
+13:36:55.373 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209276
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209276
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:36:55 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+13:53:59.552 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/2 cup",
+    "description": "Oh, my God. They found me. I don't know how, but they found me. Run for it, Marty!",
+    "name_plural": "1/2 cups"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:53:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+13:54:51.018 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 tablespoon",
+    "description": "You want a Pepsi, pal, you're gonna pay for it.",
+    "name_plural": "1/4 tablespoons"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:54:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "392"
+}
+
+13:55:03.970 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 cup",
+    "description": "Look! There's a rhythmic ceremonial ritual coming up.",
+    "name_plural": "1/4 cups"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:55:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+13:55:31.829 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 pint",
+    "description": "I had a horrible nightmare. I dreamed that I went... back in time. It was terrible.",
+    "name_plural": "2 pints"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 10:55:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "393"
+}
+
+15:21:43.052 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 pint",
+    "description": "Oh, honey, he's teasing you. Nobody has two television sets.",
+    "name_plural": "1/4 pints"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 12:21:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+17:37:06.635 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 cup",
+    "description": "Whoa. This is heavy.",
+    "name_plural": "2 cups"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:37:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+17:37:15.884 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1 quart",
+    "description": "Weight has nothing to do with it.",
+    "name_plural": "1 quarts"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:37:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+17:40:08.282 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/3 cup",
+    "description": "This is all wrong. I don't know what it is. But when I kiss you, it's like I'm kissing... my brother. I guess that doesn't make any sense, does it?",
+    "name_plural": "1/3 cupsErgonomic Silk Coat"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:40:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "394"
+}
+
+17:41:07.356 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Cousin Miss Antwan Emard",
+    "description": "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "445"
+}
+
+17:41:08.004 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ergonomic Silk Table",
+    "description": "Chuck Norris solved the Travelling Salesman problem in O(1) time.",
+    "location_id": 445,
+    "min_stock_amount": 4,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 48.1755
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209277"
+}
+
+17:41:08.162 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209277
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209277
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:08 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+17:41:17.777 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father Desiree Gutkowski",
+    "description": "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "446"
+}
+
+17:41:18.381 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Awesome Plastic Watch",
+    "description": "Chuck Norris can write multi-threaded applications with a single thread.",
+    "location_id": 446,
+    "min_stock_amount": 7,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 23.7477
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209278"
+}
+
+17:41:30.141 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister Larue Grant",
+    "description": "Fear cuts deeper than swords.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "447"
+}
+
+17:41:46.319 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother Dr. Dion Bergstrom",
+    "description": "The North remembers.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "448"
+}
+
+17:41:46.963 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Lightweight Wooden Watch",
+    "description": "Chuck Norris can instantiate an abstract class.",
+    "location_id": 448,
+    "min_stock_amount": 8,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 39.5661
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209279"
+}
+
+17:41:47.224 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Husband Edelmira Kohler",
+    "description": "Nothing burns like the cold.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "449"
+}
+
+17:41:47.384 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Heavy Duty Copper Pants",
+    "description": "When Chuck Norris' code fails to compile the compiler apologises.",
+    "location_id": 449,
+    "min_stock_amount": 8,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 31.0883
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209280"
+}
+
+17:41:47.528 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209280
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209280
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:47 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+17:41:47.681 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/3 pint",
+    "description": "Hey, McFly! I thought I told you never to come in here.",
+    "name_plural": "1/3 pintsSmall Leather Wallet"
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: quantity_units.name"
+}
+
+17:41:47.878 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father Elenore Berge",
+    "description": "The North remembers.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:41:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "450"
+}
+
+17:43:30.819 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother-in-law Modesta Boehm",
+    "description": "Once you’ve accepted your flaws, no one can use them against you.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "451"
+}
+
+17:43:31.460 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ergonomic Marble Shirt",
+    "description": "Chuck Norris knows the last digit of PI.",
+    "location_id": 451,
+    "min_stock_amount": 8,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 53.9572
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209281"
+}
+
+17:43:31.691 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother Junita Gusikowski II",
+    "description": "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "452"
+}
+
+17:43:31.859 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Synergistic Granite Plate",
+    "description": "Chuck Norris' addition operator doesn't commute; it teleports to where he needs it to be.",
+    "location_id": 452,
+    "min_stock_amount": 7,
+    "qu_id_stock": 5,
+    "qu_id_purchase": 5,
+    "qu_factor_purchase_to_stock": 29.5834
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209282"
+}
+
+17:43:32.011 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209282
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209282
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:32 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+17:43:32.183 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 teaspoonRustic Plastic Bench",
+    "description": "Things have certainly changed around here. I remember when this was all farmland as far the eye could see. Old man Peabody owned all of this. He had this crazy idea about breeding pine trees.",
+    "name_plural": "1/4 teaspoonRustic Plastic Benchs"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:32 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "395"
+}
+
+17:43:32.344 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother Dr. Kurt Borer",
+    "description": "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:43:32 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "453"
+}
+
+17:55:20.320 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother Miss Youlanda Bednar",
+    "description": "And I have a tender spot in my heart for cripples and bastards and broken things.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "454"
+}
+
+17:55:20.905 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/2 teaspoonAwesome Wool Watch",
+    "description": "It's gonna be really hard waiting 30 years before I can talk to you about everything that's happened in the past few days. I'm really gonna miss you, Marty.",
+    "name_plural": "1/2 teaspoonAwesome Wool Watchs"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "396"
+}
+
+17:55:21.079 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Gorgeous Steel Shirt",
+    "description": "Chuck Norris has root access to your system.",
+    "location_id": 454,
+    "min_stock_amount": 9,
+    "qu_id_stock": 396,
+    "qu_id_purchase": 396,
+    "qu_factor_purchase_to_stock": 25.7692
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209283"
+}
+
+17:55:21.314 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Wife Mr. Norman Koch",
+    "description": "Nothing burns like the cold.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "455"
+}
+
+17:55:21.469 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1 quartMediocre Plastic Keyboard",
+    "description": "I have your car towed all the way to your house and all you got for me is lite beer?",
+    "name_plural": "1 quartMediocre Plastic Keyboards"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "397"
+}
+
+17:55:21.621 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Small Cotton Computer",
+    "description": "Project managers never ask Chuck Norris for estimations... ever.",
+    "location_id": 455,
+    "min_stock_amount": 2,
+    "qu_id_stock": 397,
+    "qu_id_purchase": 397,
+    "qu_factor_purchase_to_stock": 29.4986
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209284"
+}
+
+17:55:21.768 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209284
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209284
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+17:55:21.921 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "3 cupPractical Copper Shoes",
+    "description": "Marty, I'm sorry, but the only power source capable of generating 1.21 gigawatts of electricity is a bolt of lightning.",
+    "name_plural": "3 cupPractical Copper Shoess"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "398"
+}
+
+17:55:22.095 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother-in-law Reinaldo Weber",
+    "description": "Do the dead frighten you?",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:55:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "456"
+}
+
+17:56:06.722 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Uncle Miss Jeneva Pagac",
+    "description": "Summer will end soon enough, and childhood as well.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:56:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "457"
+}
+
+17:56:07.255 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 teaspoonSynergistic Iron Bench",
+    "description": "This is all wrong. I don't know what it is. But when I kiss you, it's like I'm kissing... my brother. I guess that doesn't make any sense, does it?",
+    "name_plural": "2 teaspoonSynergistic Iron Benchs"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:56:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "399"
+}
+
+17:56:07.419 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Durable Concrete Coat",
+    "description": "Chuck Norris doesn't need a java compiler, he goes straight to .war",
+    "location_id": 457,
+    "min_stock_amount": 1,
+    "qu_id_stock": 399,
+    "qu_id_purchase": 399,
+    "qu_factor_purchase_to_stock": 90.9834
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:56:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209285"
+}
+
+17:56:07.572 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209285
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209285
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Mon, 28 Mar 2022 14:56:07 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+09:54:06.251 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister 00826",
+    "description": "When you play a game of thrones you win or you die.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 06:54:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "458"
+}
+
+09:58:03.753 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 33226",
+    "description": "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 06:58:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "459"
+}
+
+10:47:02.182 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father-in-law 28646",
+    "description": "All dwarfs are bastards in their father's eyes",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:47:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "460"
+}
+
+10:47:17.625 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 69161",
+    "description": "And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:47:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "461"
+}
+
+10:47:23.145 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 39234",
+    "description": "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:47:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "462"
+}
+
+10:58:18.637 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 22046",
+    "description": "Do the dead frighten you?",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:58:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "463"
+}
+
+10:59:27.342 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister-in-law 74828",
+    "description": "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:59:27 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "464"
+}
+
+10:59:38.615 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister 64342",
+    "description": "All dwarfs are bastards in their father's eyes",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:59:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "465"
+}
+
+10:59:39.142 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sister-in-law 56265",
+    "description": "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:59:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "466"
+}
+
+10:59:39.312 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 pintErgonomic Cotton Shirt",
+    "description": "Okay. Time circuit's on. Flux capacitor, fluxing. Engine running. All right.",
+    "name_plural": "1/4 pintErgonomic Cotton Shirts"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:59:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "400"
+}
+
+10:59:39.505 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Uncle 46589",
+    "description": "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 07:59:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "467"
+}
+
+11:12:08.648 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Wife 12719",
+    "description": "The things I do for love.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 08:12:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "468"
+}
+
+11:12:09.248 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother-in-law 14249",
+    "description": "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 08:12:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "469"
+}
+
+11:12:09.425 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 teaspoonGorgeous Wool Hat",
+    "description": "Jesus, George, it was a wonder I was even born.",
+    "name_plural": "2 teaspoonGorgeous Wool Hats"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 08:12:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "401"
+}
+
+11:12:09.629 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Granddaughter 96611",
+    "description": "Do the dead frighten you?",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 08:12:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "470"
+}
+
+12:03:23.012 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother-in-law 33511",
+    "description": "Things are not always as they seemed, much that may seem evil can be good.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:03:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "471"
+}
+
+12:12:40.776 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 83862",
+    "description": "Things are not always as they seemed, much that may seem evil can be good.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:12:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "472"
+}
+
+12:13:33.097 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 70048",
+    "description": "Never forget who you are. The rest of the world won't. Wear it like an armor and it can never be used against you.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:13:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "473"
+}
+
+12:16:30.281 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother-in-law 23342",
+    "description": "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:16:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "474"
+}
+
+12:24:31.007 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Husband 41648",
+    "description": "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:24:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "475"
+}
+
+12:28:07.686 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mother 43193",
+    "description": "The North remembers.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:28:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "476"
+}
+
+12:32:14.378 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/stock/products/2147483647/add
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=2147483647
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 445.86,
+    "price": 506.79,
+    "best_before_date": null,
+    "transaction_type": "purchase",
+    "location_id": null,
+    "shopping_location_id": null
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:32:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Product does not exist or is inactive"
+}
+
+12:34:34.054 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/stock/products/2147483647/add
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=2147483647
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 145.52,
+    "price": 555.39,
+    "best_before_date": null,
+    "transaction_type": "purchase",
+    "location_id": null,
+    "shopping_location_id": null
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:34:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Product does not exist or is inactive"
+}
+
+12:35:18.029 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/stock/products/2147483647/add
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=2147483647
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": 77.19,
+    "price": 771.42,
+    "best_before_date": null,
+    "transaction_type": "purchase",
+    "location_id": null,
+    "shopping_location_id": null
+}
+HTTP/1.1 400 Bad Request
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:35:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "error_message": "Product does not exist or is inactive"
+}
+
+12:35:39.697 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Grandmother 45602",
+    "description": "All dwarfs are bastards in their father's eyes",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 09:35:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "477"
+}
+
+13:43:57.362 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Husband 76156",
+    "description": "Things are not always as they seemed, much that may seem evil can be good.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:43:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "478"
+}
+
+13:43:57.877 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Grandson 70766",
+    "description": "And I have a tender spot in my heart for cripples and bastards and broken things.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:43:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "479"
+}
+
+13:43:58.099 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1 quartIncredible Bronze Lamp",
+    "description": "I finally invent something that works!",
+    "name_plural": "1 quartIncredible Bronze Lamps"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:43:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "402"
+}
+
+13:43:58.279 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother-in-law 27434",
+    "description": "Do the dead frighten you?",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:43:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "480"
+}
+
+13:47:11.211 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Aunt 92025",
+    "description": "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "481"
+}
+
+13:47:11.767 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/4 tablespoonIntelligent Granite Computer",
+    "description": "That's Strickland. Jesus, didn't that guy ever have hair?",
+    "name_plural": "1/4 tablespoonIntelligent Granite Computers"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "403"
+}
+
+13:47:11.983 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Awesome Paper Coat",
+    "description": "Chuck Norris' keyboard doesn't have a F1 key, the computer asks him for help.",
+    "location_id": 481,
+    "min_stock_amount": 2,
+    "qu_id_stock": 403,
+    "qu_id_purchase": 403,
+    "qu_factor_purchase_to_stock": 90.6727
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209286"
+}
+
+13:47:12.203 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Brother 85746",
+    "description": "Fear cuts deeper than swords.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "482"
+}
+
+13:47:12.367 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "3 gallonHeavy Duty Cotton Gloves",
+    "description": "Calvin? Wh... Why do you keep calling me Calvin?",
+    "name_plural": "3 gallonHeavy Duty Cotton Glovess"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "404"
+}
+
+13:47:12.520 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mediocre Wool Table",
+    "description": "When Chuck Norris gives a method an argument, the method loses.",
+    "location_id": 482,
+    "min_stock_amount": 9,
+    "qu_id_stock": 404,
+    "qu_id_purchase": 404,
+    "qu_factor_purchase_to_stock": 67.5335
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209287"
+}
+
+13:47:12.666 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209287
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209287
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+13:47:12.823 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 pintHeavy Duty Steel Shirt",
+    "description": "I had a horrible nightmare. I dreamed that I went... back in time. It was terrible.",
+    "name_plural": "2 pintHeavy Duty Steel Shirts"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "405"
+}
+
+13:47:12.982 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Wife 34911",
+    "description": "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 10:47:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "483"
+}
+
+14:52:39.744 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Husband 70128",
+    "description": "The things I do for love.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "484"
+}
+
+14:52:40.309 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1 gallonGorgeous Silk Car",
+    "description": "Since you're new here, I-I'm gonna cut you a break, today. So, why don't you make like a tree and get outta here?",
+    "name_plural": "1 gallonGorgeous Silk Cars"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "406"
+}
+
+14:52:40.479 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Enormous Granite Shoes",
+    "description": "Chuck Norris has root access to your system.",
+    "location_id": 484,
+    "min_stock_amount": 9,
+    "qu_id_stock": 406,
+    "qu_id_purchase": 406,
+    "qu_factor_purchase_to_stock": 72.2393
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209288"
+}
+
+14:52:40.679 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Wife 54768",
+    "description": "Some old wounds never truly heal, and bleed again at the slightest word.",
+    "is_freezer": 0
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "485"
+}
+
+14:52:40.852 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "2 tablespoonAwesome Marble Chair",
+    "description": "Last night, Darth Vader came down from Planet Vulcan and told me that if I didn't take Lorraine out, that he'd melt my brain.",
+    "name_plural": "2 tablespoonAwesome Marble Chairs"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "407"
+}
+
+14:52:41.005 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Practical Wooden Shoes",
+    "description": "Chuck Norris doesn't have disk latency because the hard drive knows to hurry the hell up.",
+    "location_id": 485,
+    "min_stock_amount": 1,
+    "qu_id_stock": 407,
+    "qu_id_purchase": 407,
+    "qu_factor_purchase_to_stock": 61.2498
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:41 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "1964209289"
+}
+
+14:52:41.157 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8089/api/objects/products/1964209289
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=products
+				objectId=1964209289
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:41 GMT
+Content-Type: application/json
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+14:52:41.316 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/quantity_units
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=quantity_units
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "1/3 pintFantastic Leather Knife",
+    "description": "Well, I figured, what the hell?",
+    "name_plural": "1/3 pintFantastic Leather Knifes"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:41 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "408"
+}
+
+14:52:41.474 [main] INFO  com.endava.grocy.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8089/api/objects/locations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	entity=locations
+Headers:		Accept=*/*
+				GROCY-API-KEY=DgQfROivigiL5eQdS0716iz0q4P3I1eOgiXOoJF61Ar6cyCIwA	
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Father 21717",
+    "description": "Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.",
+    "is_freezer": 1
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 29 Mar 2022 11:52:41 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+X-Powered-By: PHP/7.4.15
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: *
+
+{
+    "created_object_id": "486"
+}
+
